@@ -1,0 +1,67 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+
+}
+.banner .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+}
+.banner .section:nth-child(1){
+    background-image: url(../images/yoga1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.banner .section:nth-child(2){
+    background-image: url(../images/yoga2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .section:nth-child(3){
+    background-image: url(../images/yoga3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .section:nth-child(4){
+    background-image: url(../images/yoga4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner .section .content{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 900px;
+}
+.banner .section .content h2{
+    background-color: transparent ;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2em;
+}
+.banner .section .content p{
+    background:transparent;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+h1{
+    
+    padding: 10px 20px;
+}
